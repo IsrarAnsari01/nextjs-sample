@@ -1,0 +1,17 @@
+.mainSection {
+  margin: 20px 40px;
+}
+
+.textColor {
+  color: #76bc21;
+  padding-left: 20px;
+}
+
+.textDivColor {
+  border-left: 4px solid #76bc21;
+}
+
+.cardSection {
+  padding-top: 40px;
+}
+

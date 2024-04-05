@@ -1,0 +1,37 @@
+.cardMainStyle {
+  height: 40vh;
+  margin: 0px 20px;
+}
+
+.cardBody {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.priceTextStyle {
+  margin-top: 5px;
+}
+
+.iconStyles {
+  background-color: #61a311;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  bottom: -140px;
+  transition: 0.5s all;
+  width: 3.42vw;
+  height: 3.42vw;
+}
+
+.cardHeader:hover .iconStyles {
+  opacity: 50%;
+  visibility: visible;
+}
+
+.iconLayout {
+  display: flex;
+}

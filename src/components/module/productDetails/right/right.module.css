@@ -1,0 +1,45 @@
+.brandTextStyle{
+    color: blue;
+    cursor: pointer;
+}
+
+.priceDiv {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.cartSection {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxStyle {
+    height: 50px;
+    width: 250px;
+    border: 1px solid rgb(240, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.boxTextStyle {
+    font-size: 14px;
+}
+
+.deliveryTextStyle {
+    color: #6eae20;
+    text-transform: uppercase;
+    font-size:12px !important;
+    font-weight: bold;
+}
+
+.buttonDivStyle {
+    margin-right: 90px;
+}
+
+.buttonStyle{
+    background-color: #6eae20;
+}

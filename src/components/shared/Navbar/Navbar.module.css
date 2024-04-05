@@ -1,0 +1,42 @@
+.mainDiv {
+  height: 18vh;
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fieldsStyle {
+  display: flex;
+}
+.fieldInnerStyle {
+  margin-right: 20px;
+}
+
+.buttonsStyle {
+  display: flex;
+  margin-top: 3px;
+ 
+}
+
+.cartButtonDivStyle {
+  margin-left: 20px;
+}
+.cartButtonStyle {
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #76bc21;
+}
+
+.buttonTextStyle {
+  font-size: 12px;
+}
+
+.instantOrderButton {
+  border-radius: 8px;
+  width: 150px;
+  height: 30px;
+  background-color: #76bc21;
+}

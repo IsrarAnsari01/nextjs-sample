@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
 
-module.exports = nextConfig
+  images: {
+    domains: ["dvago-assets.s3.ap-southeast-1.amazonaws.com"],
+  },
+};
+
+module.exports = nextConfig;
